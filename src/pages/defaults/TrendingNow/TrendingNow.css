@@ -1,0 +1,47 @@
+body{
+    color:#ffffff;
+}
+.app-trending .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    /* word-wrap: break-word; */
+    background-color:transparent;
+    background-clip: border-box;
+    border: 0px ;
+    border-radius: 0rem;
+}
+.app-trending .card-title {
+    /* margin-bottom: .75rem; */
+}
+.app-trending .h5, h5 {
+    font-size: 1.5rem;
+}
+.app-trending .card-title.h5{
+        margin-bottom: 0rem; 
+        font-weight: 500;
+        /* line-height: 1.2; */   
+         /* margin-bottom: .75rem; */
+}
+.app-trending .card-img-overlay {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0rem;
+}
+.app-trending .card-small{
+    float: left;
+    width: 100%
+}
+.app-trending .row > div {
+    padding: 0;
+}
+.app-trending {
+    height: 60vh;;
+}
+.app-trending .container, .app-trending .row, .app-trending .row > div {
+    height: 100%;
+}
