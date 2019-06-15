@@ -13,7 +13,7 @@ class HeaderMenu extends React.Component {
                     <Nav variant="pills" activeKey="1" onSelect={k => this.handleSelect(k)}>
                         <Nav.Item>
                             <Nav.Link eventKey="1" href="#/home" className="app-header-menu-icon app-icon-home">
-                                <i class="fas fa-home"></i>
+                                <i className="fas fa-home"></i>
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item style={{borderTop: "#F58220 solid 3px", borderRight: "0.5px solid rgba(140, 137, 137, 0.6)"}}>

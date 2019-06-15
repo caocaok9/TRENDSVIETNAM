@@ -4,7 +4,7 @@ class TinImages extends React.Component {
     render() {
         return (
             <Container>
-                <Row class="TinImages1">
+                <Row className="TinImages1">
                     <Col md={12}>
                     <Card className="card-big">
                         <Card.Img src="images/photo1.png" alt="Card image" />
@@ -21,7 +21,7 @@ class TinImages extends React.Component {
                     </Card>
                     </Col>
                 </Row>
-                <Row class="TinImages2">
+                <Row className="TinImages2">
                     <Col md={4} >
                     <Card className="card-small">
                         <Card.Img src="images/photo2.png" alt="Card image" />

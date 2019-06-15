@@ -8,7 +8,7 @@ import './header.css';
 class Header extends React.Component {
     render() {
         return (
-            <div>
+            <div className="app-header">
                 <HeaderTop/>
                 <HeaderLogo/>
                 <HeaderMenu/>

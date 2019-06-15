@@ -79,4 +79,17 @@
 .app-header-logo{
     width: 100%;
 }
+
+.app-header .container {
+    width: 100%;
+    max-width: 100%;
+}
+/* .app-header .container > .row{
+    margin-top: 30px; 
+    margin-bottom: 30px;
+} */
+.app-header .app-header-banner {
+    width: 100%;
+    /* height: 100%; */
+}
  
